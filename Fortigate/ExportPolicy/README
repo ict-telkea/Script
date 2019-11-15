@@ -1,0 +1,7 @@
+Export policy fortigate
+
+Step:
+ - Create new file policy_script.pl and copy Perl script to the file
+ - Copy output command “show firewall policy” from Foritgate to ruleFW.txt
+ - Run script “perl policy_script.pl ruleFW.txt ”
+ - It will create output policies-out.csv
